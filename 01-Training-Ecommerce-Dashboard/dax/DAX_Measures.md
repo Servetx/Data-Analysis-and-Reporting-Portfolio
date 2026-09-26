@@ -1,5 +1,7 @@
 # DAX Measures
 
+[← Proje sayfasi](../README.md) · [Ana sayfa](../../README.md)
+
 Bu dosya, Training E-Commerce Dashboard projesinde kullanilan DAX olculerini icerir.
 
 ## Core KPI Measures

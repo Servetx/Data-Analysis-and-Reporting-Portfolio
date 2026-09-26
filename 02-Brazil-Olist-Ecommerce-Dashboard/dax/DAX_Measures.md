@@ -1,5 +1,7 @@
 # DAX Measures
 
+[← Proje sayfasi](../README.md) · [Ana sayfa](../../README.md)
+
 Bu dosya, Brazil Olist E-Commerce Dashboard projesinde kullanilan temel DAX olculerini icerir.
 
 ## Core KPI Measures

@@ -40,7 +40,7 @@ Projede yer alan başlıca çalışmalar:
 
 ### [E-Ticaret İşletmesi SQL Analizi](Ecommerce_Business_SQL_Analysis)
 
-Bu projede müşteri, sipariş, ürün, satıcı ve ödeme tabloları kullanılarak gerçekçi iş sorularına SQL ile cevap verilmiştir.
+Bu projede Olist Brazil e-ticaret veri setindeki müşteri, sipariş, ürün, satıcı ve ödeme tabloları kullanılarak gerçekçi iş sorularına SQL ile cevap verilmiştir.
 
 Öne çıkan analizler:
 
@@ -56,7 +56,7 @@ Kullanılan başlıca SQL yapıları:
 
 `SELECT` · `WHERE` · `GROUP BY` · `HAVING` · `CASE WHEN` · `JOIN` · `CTE` · `ROW_NUMBER` · `COUNT` · `SUM` · `AVG`
 
-[SQL proje açıklamasını ve dosyalarını görüntüle](Ecommerce_Business_SQL_Analysis)
+[SQL proje açıklamasını ve dosyalarını görüntüle](Ecommerce_Business_SQL_Analysis) · [Aynı verinin Power BI dashboardu](02-Brazil-Olist-Ecommerce-Dashboard)
 
 ## Power BI Dashboard Projeleri
 
@@ -86,7 +86,7 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 - Kategori ve ay filtreleri
 - DAX ile önceki ay karşılaştırması ve dinamik vurgulama
 
-[Proje README](02-Brazil-Olist-Ecommerce-Dashboard) · [Dashboard PDF](02-Brazil-Olist-Ecommerce-Dashboard/dashboard.pdf) · [DAX ölçüleri](02-Brazil-Olist-Ecommerce-Dashboard/dax/DAX_Measures.md)
+[Proje README](02-Brazil-Olist-Ecommerce-Dashboard) · [Dashboard PDF](02-Brazil-Olist-Ecommerce-Dashboard/dashboard.pdf) · [DAX ölçüleri](02-Brazil-Olist-Ecommerce-Dashboard/dax/DAX_Measures.md) · [Aynı verinin SQL analizi](Ecommerce_Business_SQL_Analysis)
 
 ## Excel Dashboard Projesi
 
