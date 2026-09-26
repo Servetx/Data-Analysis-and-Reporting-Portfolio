@@ -1,5 +1,7 @@
 # SQL Server İş Operasyonları Portföyü
 
+[← Ana sayfa](../README.md)
+
 Bu proje, kurgusal bir B2B e-ticaret işletmesinin müşteri, ürün, sipariş, ödeme ve stok verileri üzerinde hazırlanmış SQL Server çalışmasıdır.
 
 Amaç yalnızca SQL komutlarını göstermek değil; iş sorularını doğru tablo ve kolonlarla analiz etmek, veri tutarsızlıklarını bulmak ve tekrar kullanılabilir raporlama yapıları oluşturmaktır.
@@ -64,15 +66,15 @@ erDiagram
 
 | Dosya | İçerik |
 |---|---|
-| `00_Setup.sql` | Şema, tablolar ve kurgusal örnek veriler |
-| `01_Basic_Querying.sql` | SELECT, WHERE, DISTINCT, TOP, LIKE, IN, BETWEEN, NULL, tarih ve metin fonksiyonları |
-| `02_Joins_and_Aggregations.sql` | JOIN türleri, COUNT, SUM, AVG, GROUP BY, HAVING ve veri kalite kontrolleri |
-| `03_Subqueries_CTE_Window_Functions.sql` | Subquery, EXISTS, derived table, CTE, ROW_NUMBER, RANK ve kümülatif toplam |
-| `04_DML_and_Transactions.sql` | INSERT, UPDATE, DELETE, INSERT SELECT ve transaction güvenliği |
-| `05_Stored_Procedures.sql` | Parametreli rapor prosedürleri ve hata kontrollü güncelleme örneği |
-| `06_Temp_Table_View_Index.sql` | Geçici tablo, VIEW ve indeks kullanımı |
-| `07_Cursor_vs_Set_Based.sql` | Cursor ile set-based yaklaşımın karşılaştırılması |
-| `08_ERP_B2B_Reconciliation.sql` | ERP ve B2B stok/fiyat kayıtlarının karşılaştırılması |
+| [`00_Setup.sql`](00_Setup.sql) | Şema, tablolar ve kurgusal örnek veriler |
+| [`01_Basic_Querying.sql`](01_Basic_Querying.sql) | SELECT, WHERE, DISTINCT, TOP, LIKE, IN, BETWEEN, NULL, tarih ve metin fonksiyonları |
+| [`02_Joins_and_Aggregations.sql`](02_Joins_and_Aggregations.sql) | JOIN türleri, COUNT, SUM, AVG, GROUP BY, HAVING ve veri kalite kontrolleri |
+| [`03_Subqueries_CTE_Window_Functions.sql`](03_Subqueries_CTE_Window_Functions.sql) | Subquery, EXISTS, derived table, CTE, ROW_NUMBER, RANK ve kümülatif toplam |
+| [`04_DML_and_Transactions.sql`](04_DML_and_Transactions.sql) | INSERT, UPDATE, DELETE, INSERT SELECT ve transaction güvenliği |
+| [`05_Stored_Procedures.sql`](05_Stored_Procedures.sql) | Parametreli rapor prosedürleri ve hata kontrollü güncelleme örneği |
+| [`06_Temp_Table_View_Index.sql`](06_Temp_Table_View_Index.sql) | Geçici tablo, VIEW ve indeks kullanımı |
+| [`07_Cursor_vs_Set_Based.sql`](07_Cursor_vs_Set_Based.sql) | Cursor ile set-based yaklaşımın karşılaştırılması |
+| [`08_ERP_B2B_Reconciliation.sql`](08_ERP_B2B_Reconciliation.sql) | ERP ve B2B stok/fiyat kayıtlarının karşılaştırılması |
 
 ## Kullanılan SQL Konuları
 

@@ -1,5 +1,7 @@
 # Brazil Olist E-Commerce Dashboard
 
+[← Ana sayfa](../README.md)
+
 Bu proje, Olist Brazil E-Commerce veri seti uzerinde gelistirdigim Power BI dashboard calismasidir.
 
 Dashboard'da musteri, siparis, odeme tutari, ortalama siparis degeri, odeme tipi, kategori ve eyalet bazli dagilim analiz edilmistir.
@@ -16,6 +18,8 @@ Dashboard PDF olarak goruntulenebilir. Power BI dosyasi PBIT (sablon) formatinda
 ## Veri Kaynagi
 
 [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+Ayni verinin SQL ile analizi ve veri kalite kontrolleri: [E-Commerce Business SQL Analysis](../Ecommerce_Business_SQL_Analysis/README.md)
 
 ## One Cikan Bulgular
 
