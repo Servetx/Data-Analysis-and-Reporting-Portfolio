@@ -6,10 +6,25 @@ Dashboard'da musteri, siparis, odeme tutari, ortalama siparis degeri, odeme tipi
 
 ## Dashboard Preview
 
-Dashboard dosyasi PDF olarak goruntulenebilir, Power BI proje dosyasi ise PBIX formatinda indirilebilir.
+![Dashboard Onizleme](dashboard-preview.png)
 
-- [Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
-- [Power BI PBIX dosyasini indir](dashboard.pbix.pbit)
+Dashboard PDF olarak goruntulenebilir. Power BI dosyasi PBIT (sablon) formatinda indirilebilir; acildiginda veri kaynagi yolu istenir.
+
+- [Dashboard PDF dosyasini goruntule](dashboard.pdf)
+- [Power BI PBIT sablonunu indir](dashboard.pbit)
+
+## Veri Kaynagi
+
+[Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+## One Cikan Bulgular
+
+Onizlemedeki gorunumde Kasim ayi ve tum kategoriler secilidir.
+
+- Grafikteki aylarin toplam odeme tutari 24,00M; en yuksek ay Agustos.
+- Temmuz ve Agustos birlikte toplam odeme tutarinin %24,14'unu olusturuyor (5,79M).
+- Kasim ayinda odeme tutari Ekim'e gore %102,4, AOV ise %60,8 artmis.
+- Odeme tutarinin buyuk kismi (~%72,5) kredi karti ile yapilmis.
 
 ## Dashboard Icerigi
 

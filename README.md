@@ -1,6 +1,8 @@
 # SQL, Power BI ve Veri Analizi Portföyü
 
-Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **SQL veri analizi çalışmalarını** ve **Power BI dashboard projelerini** içerir.
+> **English summary:** A data analysis portfolio built with Microsoft SQL Server, Power BI (DAX) and Excel. It includes business-question-driven SQL projects (joins, CTEs, window functions, stored procedures, transactions, data quality checks, ERP/B2B reconciliation), two Power BI e-commerce dashboards and an Excel invoice tracking dashboard.
+
+Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **SQL veri analizi çalışmalarını**, **Power BI dashboard projelerini** ve bir **Excel dashboard** çalışmasını içerir.
 
 Çalışmaların amacı; iş sorularını SQL sorgularına dönüştürmek, veri kalitesi kontrolleri yapmak, temel performans göstergelerini hesaplamak ve sonuçları anlaşılır raporlara dönüştürmektir.
 
@@ -13,6 +15,7 @@ Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **S
 | SQL Uygulama Sorguları | Temel SQL, aggregate, JOIN, subquery, CTE ve window function pratikleri | [Çalışmaları incele](SQL_Practice_Queries) |
 | Training E-Commerce Dashboard | Eğitim sonrasında bağımsız olarak yeniden kurulan Power BI dashboard çalışması | [Dashboard projesini incele](01-Training-Ecommerce-Dashboard) |
 | Brazil Olist E-Commerce Dashboard | Olist e-ticaret verileriyle hazırlanan iş odaklı Power BI raporu | [Dashboard projesini incele](02-Brazil-Olist-Ecommerce-Dashboard) |
+| Excel Fatura Takip Dashboardu | Faturaların ödeme ve vade durumunu izleyen interaktif Excel dashboardu | [Dashboard projesini incele](03-Excel-Fatura-Takip-Dashboard) |
 
 ## Öne Çıkan SQL Projesi
 
@@ -59,6 +62,8 @@ Kullanılan başlıca SQL yapıları:
 
 ### [Training E-Commerce Dashboard](01-Training-Ecommerce-Dashboard)
 
+![Training E-Commerce Dashboard](01-Training-Ecommerce-Dashboard/dashboard-preview.png)
+
 Eğitimde öğrenilen dashboard yapısının videoya bakmadan yeniden kurulduğu pratik çalışmasıdır.
 
 - KPI kartları: Customers, Orders, Sales ve AOV
@@ -67,9 +72,11 @@ Eğitimde öğrenilen dashboard yapısının videoya bakmadan yeniden kurulduğu
 - DAX ile önceki ay karşılaştırması ve büyüme oranları
 - Slicer, koşullu biçimlendirme ve dinamik ay vurgulama
 
-[Proje README](01-Training-Ecommerce-Dashboard) · [Dashboard PDF](01-Training-Ecommerce-Dashboard/dashboard.pdf.pdf) · [DAX ölçüleri](01-Training-Ecommerce-Dashboard/dax/DAX_Measures.md)
+[Proje README](01-Training-Ecommerce-Dashboard) · [Dashboard PDF](01-Training-Ecommerce-Dashboard/dashboard.pdf) · [DAX ölçüleri](01-Training-Ecommerce-Dashboard/dax/DAX_Measures.md)
 
 ### [Brazil Olist E-Commerce Dashboard](02-Brazil-Olist-Ecommerce-Dashboard)
+
+![Brazil Olist E-Commerce Dashboard](02-Brazil-Olist-Ecommerce-Dashboard/dashboard-preview.png)
 
 Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme performansını inceleyen Power BI çalışmasıdır.
 
@@ -79,7 +86,22 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 - Kategori ve ay filtreleri
 - DAX ile önceki ay karşılaştırması ve dinamik vurgulama
 
-[Proje README](02-Brazil-Olist-Ecommerce-Dashboard) · [Dashboard PDF](02-Brazil-Olist-Ecommerce-Dashboard/dashboard.pdf.pdf) · [DAX ölçüleri](02-Brazil-Olist-Ecommerce-Dashboard/dax/DAX_Measures.md)
+[Proje README](02-Brazil-Olist-Ecommerce-Dashboard) · [Dashboard PDF](02-Brazil-Olist-Ecommerce-Dashboard/dashboard.pdf) · [DAX ölçüleri](02-Brazil-Olist-Ecommerce-Dashboard/dax/DAX_Measures.md)
+
+## Excel Dashboard Projesi
+
+### [Excel Fatura Takip Dashboardu](03-Excel-Fatura-Takip-Dashboard)
+
+![Excel Fatura Takip Dashboardu](03-Excel-Fatura-Takip-Dashboard/dashboard-preview.png)
+
+Faturaların ödeme ve vade durumlarını takip eden interaktif Excel çalışmasıdır.
+
+- PivotTable, PivotChart ve KPI kartları
+- IF, SUMIFS, COUNTIFS ve VLOOKUP formülleri
+- TODAY ile vade kontrolü ve koşullu biçimlendirme
+- Slicer ile dinamik filtreleme
+
+[Proje README](03-Excel-Fatura-Takip-Dashboard) · [Excel dosyası](03-Excel-Fatura-Takip-Dashboard/Fatura_Takip_Dashboard.xlsx)
 
 ## Kullanılan Teknolojiler
 
@@ -87,6 +109,7 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 - Stored procedure ve transaction işlemleri
 - VIEW, geçici tablo ve indeks kullanımı
 - Power BI Desktop
+- Microsoft Excel (PivotTable, formüller, slicer)
 - DAX
 - Veri modelleme
 - Veri temizleme ve kalite kontrolü
@@ -96,13 +119,14 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 
 ```text
 Data-Analysis-and-Reporting-Portfolio/
-├── 01-Training-Ecommerce-Dashboard/               # Power BI eğitim dashboardu
-├── 02-Brazil-Olist-Ecommerce-Dashboard/           # Olist Power BI dashboardu
-├── SQL-PowerBI-Ecommerce-Portfolio/
-│   ├── SQL_Server_Business_Operations_Portfolio/  # Kapsamlı SQL Server iş senaryoları
-│   ├── Ecommerce_Business_SQL_Analysis/            # İş odaklı e-ticaret SQL projesi
-│   └── SQL_Practice_Queries/                       # SQL öğrenme ve pratik dosyaları
-└── README.md                                       # Ana portföy yönlendirmesi
+├── SQL_Server_Business_Operations_Portfolio/   # Kapsamlı SQL Server iş senaryoları
+├── Ecommerce_Business_SQL_Analysis/            # İş odaklı e-ticaret SQL projesi
+├── SQL_Practice_Queries/                       # SQL öğrenme ve pratik dosyaları
+├── 01-Training-Ecommerce-Dashboard/            # Power BI eğitim dashboardu
+├── 02-Brazil-Olist-Ecommerce-Dashboard/        # Olist Power BI dashboardu
+├── 03-Excel-Fatura-Takip-Dashboard/            # Excel fatura takip dashboardu
+└── README.md                                   # Ana portföy yönlendirmesi
+```
 
 ## Proje Notu
 

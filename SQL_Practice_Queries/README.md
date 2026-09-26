@@ -9,10 +9,10 @@ Bu dosyalar is odakli ana proje degil; SQL konularini ogrenmek ve pekistirmek ic
 | Dosya | Icerik |
 | --- | --- |
 | `Basic.sql` | Temel SELECT, filtreleme, siralama ve veri kontrolu sorgulari |
-| `Aggregate Functions.sql` | COUNT, SUM, AVG, MIN, MAX gibi aggregate fonksiyon pratikleri |
+| `Aggregate_Functions.sql` | COUNT, SUM, AVG, MIN, MAX gibi aggregate fonksiyon pratikleri |
 | `Joins.sql` | Tablolari JOIN ile birlestirme calismalari |
-| `Common Table Expressions.sql` | WITH / CTE kullanimi |
-| `Subquery and Deep Filter Analysis.sql` | Alt sorgu ve detayli filtreleme pratikleri |
-| `Window Function Expression.sql` | ROW_NUMBER ve window function pratikleri |
+| `Common_Table_Expression.sql` | WITH / CTE kullanimi |
+| `Subquery_and_Deep_Filter_Analysis.sql` | Alt sorgu ve detayli filtreleme pratikleri |
+| `Window_Function_Expression.sql` | ROW_NUMBER ve window function pratikleri |
 
 
