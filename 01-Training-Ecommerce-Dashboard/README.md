@@ -6,11 +6,22 @@ Amac, KPI kartlarini, dilimleyici kullanimini, DAX olculerini, grafik duzenini v
 
 ## Dashboard Preview
 
-Dashboard dosyasi PDF olarak goruntulenebilir, Power BI proje dosyasi ise PBIX formatinda indirilebilir.
+![Dashboard Onizleme](dashboard-preview.png)
 
-- [Dashboard PDF dosyasini goruntule](dashboard.pdf.pdf)
-- [Power BI PBIX dosyasini indir](dashboard.pbix.pbit)
+Dashboard PDF olarak goruntulenebilir. Power BI dosyasi PBIT (sablon) formatinda indirilebilir; acildiginda veri kaynagi yolu istenir.
 
+- [Dashboard PDF dosyasini goruntule](dashboard.pdf)
+- [Power BI PBIT sablonunu indir](dashboard.pbit)
+
+
+## One Cikan Bulgular
+
+Onizlemedeki gorunumde Mart ayi ve tum kategoriler secilidir.
+
+- Yillik toplam satis 36,35M; aylik satislar yaklasik 2,7M ile 3,2M arasinda dengeli seyrediyor.
+- Mart ayinda satis bir onceki aya gore %9,4 artmis, AOV ise %0,3 dusmustur.
+- Uc odeme yontemi (Bank Transfer, PayPal, Credit Card) satislari neredeyse esit (~%33) paylasiyor.
+- Laptop, siparis adedi diger urunlere yakin olmasina ragmen en yuksek satis tutarini ve AOV'yi uretiyor.
 
 ## Dashboard Icerigi
 
