@@ -1,5 +1,7 @@
 # Training E-Commerce Dashboard
 
+[← Ana sayfa](../README.md)
+
 Bu proje, Power BI egitiminde calistigim e-ticaret dashboard yapisini videoya bakmadan tekrar kurarak gelistirdigim bir calismadir.
 
 Amac, KPI kartlarini, dilimleyici kullanimini, DAX olculerini, grafik duzenini ve dashboard tasarim mantigini kendi basima tekrar uygulayabilmekti.

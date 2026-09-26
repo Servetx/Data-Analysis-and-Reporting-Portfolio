@@ -1,6 +1,8 @@
 # E-Commerce Business SQL Analysis
 
-Bu proje, e-ticaret veri seti uzerinde SQL Server ile hazirlanmis is odakli veri analizi calismasidir.
+[← Ana sayfa](../README.md)
+
+Bu proje, Olist Brazil e-ticaret veri seti uzerinde SQL Server ile hazirlanmis is odakli veri analizi calismasidir.
 
 Amac sadece temel SQL komutlarini gostermek degil; musteri, siparis, urun, odeme, satici, gelir ve veri kalite kontrolleri gibi is sorularini SQL ile cevaplamaktir.
 
@@ -16,6 +18,12 @@ Projenin hedefi:
 - Veri kalite problemlerini kontrol etmek
 - Okunabilir ve acik SQL dosyalari hazirlamak
 
+## Veri Kaynagi
+
+[Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+Ayni veri seti Power BI ile de gorsellestirildi: [Brazil Olist E-Commerce Dashboard](../02-Brazil-Olist-Ecommerce-Dashboard/README.md)
+
 ## Kullanilan Tablolar
 
 | Tablo | Aciklama |
@@ -30,12 +38,12 @@ Projenin hedefi:
 
 | Dosya | Icerik |
 | --- | --- |
-| `00_Data_Preparation.sql` | Sayisal analiz icin veri tipi hazirligi ve product_weight_g temizligi |
-| `01_Business_Aggregate_Analysis.sql` | COUNT, SUM, AVG, MIN, MAX, GROUP BY ve CASE WHEN ile temel is analizleri |
-| `02_Business_Join_Analysis.sql` | Musteri, siparis, urun ve odeme tablolarini JOIN ile birlestiren analizler |
-| `03_Business_CTE_Analysis.sql` | WITH / CTE kullanarak ara sonuc tablolari ile is analizleri |
-| `04_Business_Window_Function_Analysis.sql` | ROW_NUMBER ile musteri, kategori, satici, odeme turu, sehir ve eyalet siralama analizleri |
-| `05_Data_Quality_Checks.sql` | Tekrar eden ID, negatif tutar, bos kategori ve eslesmeyen kayit kontrolleri |
+| [`00_Data_Preparation.sql`](00_Data_Preparation.sql) | Sayisal analiz icin veri tipi hazirligi ve product_weight_g temizligi |
+| [`01_Business_Aggregate_Analysis.sql`](01_Business_Aggregate_Analysis.sql) | COUNT, SUM, AVG, MIN, MAX, GROUP BY ve CASE WHEN ile temel is analizleri |
+| [`02_Business_Join_Analysis.sql`](02_Business_Join_Analysis.sql) | Musteri, siparis, urun ve odeme tablolarini JOIN ile birlestiren analizler |
+| [`03_Business_CTE_Analysis.sql`](03_Business_CTE_Analysis.sql) | WITH / CTE kullanarak ara sonuc tablolari ile is analizleri |
+| [`04_Business_Window_Function_Analysis.sql`](04_Business_Window_Function_Analysis.sql) | ROW_NUMBER ile musteri, kategori, satici, odeme turu, sehir ve eyalet siralama analizleri |
+| [`05_Data_Quality_Checks.sql`](05_Data_Quality_Checks.sql) | Tekrar eden ID, negatif tutar, bos kategori ve eslesmeyen kayit kontrolleri |
 
 ## Cevaplanan Is Sorulari
 
