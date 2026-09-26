@@ -15,7 +15,7 @@ Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **S
 | SQL Uygulama Sorguları | Temel SQL, aggregate, JOIN, subquery, CTE ve window function pratikleri | [Çalışmaları incele](SQL_Practice_Queries) |
 | Training E-Commerce Dashboard | Eğitim sonrasında bağımsız olarak yeniden kurulan Power BI dashboard çalışması | [Dashboard projesini incele](01-Training-Ecommerce-Dashboard) |
 | Brazil Olist E-Commerce Dashboard | Olist e-ticaret verileriyle hazırlanan iş odaklı Power BI raporu | [Dashboard projesini incele](02-Brazil-Olist-Ecommerce-Dashboard) |
-| Excel Fatura Takip Dashboardu | Faturaların ödeme ve vade durumunu izleyen interaktif Excel dashboardu | [Dashboard projesini incele](03-Excel-Fatura-Takip-Dashboard) |
+| Excel Invoice Tracking Dashboard | Faturaların ödeme ve vade durumunu izleyen interaktif Excel dashboardu | [Dashboard projesini incele](03-Excel-Invoice-Tracking-Dashboard) |
 
 ## Öne Çıkan SQL Projesi
 
@@ -90,9 +90,9 @@ Olist Brazil e-ticaret veri seti üzerinde müşteri, sipariş ve ödeme perform
 
 ## Excel Dashboard Projesi
 
-### [Excel Fatura Takip Dashboardu](03-Excel-Fatura-Takip-Dashboard)
+### [Excel Invoice Tracking Dashboard](03-Excel-Invoice-Tracking-Dashboard)
 
-![Excel Fatura Takip Dashboardu](03-Excel-Fatura-Takip-Dashboard/dashboard-preview.png)
+![Excel Invoice Tracking Dashboard](03-Excel-Invoice-Tracking-Dashboard/dashboard-preview.png)
 
 Faturaların ödeme ve vade durumlarını takip eden interaktif Excel çalışmasıdır.
 
@@ -101,7 +101,7 @@ Faturaların ödeme ve vade durumlarını takip eden interaktif Excel çalışma
 - TODAY ile vade kontrolü ve koşullu biçimlendirme
 - Slicer ile dinamik filtreleme
 
-[Proje README](03-Excel-Fatura-Takip-Dashboard) · [Excel dosyası](03-Excel-Fatura-Takip-Dashboard/Fatura_Takip_Dashboard.xlsx)
+[Proje README](03-Excel-Invoice-Tracking-Dashboard) · [Excel dosyası](03-Excel-Invoice-Tracking-Dashboard/Invoice_Tracking_Dashboard.xlsx)
 
 ## Kullanılan Teknolojiler
 
@@ -124,7 +124,7 @@ Data-Analysis-and-Reporting-Portfolio/
 ├── SQL_Practice_Queries/                       # SQL öğrenme ve pratik dosyaları
 ├── 01-Training-Ecommerce-Dashboard/            # Power BI eğitim dashboardu
 ├── 02-Brazil-Olist-Ecommerce-Dashboard/        # Olist Power BI dashboardu
-├── 03-Excel-Fatura-Takip-Dashboard/            # Excel fatura takip dashboardu
+├── 03-Excel-Invoice-Tracking-Dashboard/        # Excel fatura takip dashboardu
 └── README.md                                   # Ana portföy yönlendirmesi
 ```
 
