@@ -1,4 +1,4 @@
-# Excel Fatura Takip Dashboardu
+# Excel Invoice Tracking Dashboard
 
 ## Proje Hakkında
 Bu projede Excel kullanılarak faturaların ödeme ve vade durumlarını takip eden interaktif bir dashboard hazırlanmıştır.
@@ -16,4 +16,4 @@ Bu projede Excel kullanılarak faturaların ödeme ve vade durumlarını takip e
 ![Dashboard Önizleme](dashboard-preview.png)
 
 ## Proje Dosyası
-[Excel dosyasını indir](Fatura_Takip_Dashboard.xlsx)
+[Excel dosyasını indir](Invoice_Tracking_Dashboard.xlsx)
