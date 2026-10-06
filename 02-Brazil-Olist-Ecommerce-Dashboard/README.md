@@ -2,35 +2,35 @@
 
 [← Ana sayfa](../README.md)
 
-Bu proje, Olist Brazil E-Commerce veri seti uzerinde gelistirdigim Power BI dashboard calismasidir.
+Bu proje, Olist Brazil E-Commerce veri seti üzerinde geliştirdiğim Power BI dashboard çalışmasıdır.
 
-Dashboard'da musteri, siparis, odeme tutari, ortalama siparis degeri, odeme tipi, kategori ve eyalet bazli dagilim analiz edilmistir.
+Dashboard'da müşteri, sipariş, ödeme tutarı, ortalama sipariş değeri, ödeme tipi, kategori ve eyalet bazlı dağılım analiz edilmiştir.
 
-## Dashboard Preview
+## Dashboard Önizleme
 
-![Dashboard Onizleme](dashboard-preview.png)
+![Dashboard Önizleme](dashboard-preview.png)
 
-Dashboard PDF olarak goruntulenebilir. Power BI dosyasi PBIT (sablon) formatinda indirilebilir; acildiginda veri kaynagi yolu istenir.
+Dashboard PDF olarak görüntülenebilir. Power BI dosyası PBIT (şablon) formatında indirilebilir.
 
-- [Dashboard PDF dosyasini goruntule](dashboard.pdf)
-- [Power BI PBIT sablonunu indir](dashboard.pbit)
+- [Dashboard PDF dosyasını görüntüle](dashboard.pdf)
+- [Power BI PBIT şablonunu indir](dashboard.pbit)
 
-## Veri Kaynagi
+## Veri Kaynağı
 
 [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-Ayni verinin SQL ile analizi ve veri kalite kontrolleri: [E-Commerce Business SQL Analysis](../Ecommerce_Business_SQL_Analysis/README.md)
+Aynı verinin SQL ile analizi ve veri kalite kontrolleri: [E-Commerce Business SQL Analysis](../Ecommerce_Business_SQL_Analysis/README.md)
 
-## One Cikan Bulgular
+## Öne Çıkan Bulgular
 
-Onizlemedeki gorunumde Kasim ayi ve tum kategoriler secilidir.
+Önizlemedeki görünümde Kasım ayı ve tüm kategoriler seçilidir.
 
-- Grafikteki aylarin toplam odeme tutari 24,00M; en yuksek ay Agustos.
-- Temmuz ve Agustos birlikte toplam odeme tutarinin %24,14'unu olusturuyor (5,79M).
-- Kasim ayinda odeme tutari Ekim'e gore %102,4, AOV ise %60,8 artmis.
-- Odeme tutarinin buyuk kismi (~%72,5) kredi karti ile yapilmis.
+- Grafikteki ayların toplam ödeme tutarı 24,00M; en yüksek ay Ağustos.
+- Temmuz ve Ağustos birlikte toplam ödeme tutarının %24,14'ünü oluşturuyor (5,79M).
+- Kasım ayında ödeme tutarı Ekim'e göre %102,4, AOV ise %60,8 artmış.
+- Ödeme tutarının büyük kısmı (~%72,5) kredi kartı ile yapılmış.
 
-## Dashboard Icerigi
+## Dashboard İçeriği
 
 - Customers
 - Orders
@@ -42,29 +42,35 @@ Onizlemedeki gorunumde Kasim ayi ve tum kategoriler secilidir.
 - Category Filter
 - Month Slicer
 
-## Power BI Dashboardlarda Kullanilan Konular
+## Uygulanan Konular
 
-- KPI kartlari
-- DAX olculeri
-- Onceki ay karsilastirmasi
-- Buyume orani olculeri
-- Kosullu bicimlendirme
+- KPI kartları
+- DAX ölçüleri
+- Önceki ay karşılaştırması
+- Büyüme oranı ölçüleri
+- Koşullu biçimlendirme
 - Ay dilimleyici
 - Kategori dilimleyici / filtresi
-- Donut grafigi
-- Sutun grafigi
-- Harita gorseli
+- Donut grafiği
+- Sütun grafiği
+- Harita görseli
 - Dinamik ay vurgulama
 - AOV hesaplama
-- Odeme turu analizi
-- Aylik odeme analizi
+- Ödeme türü analizi
+- Aylık ödeme analizi
 
-## Kullanilan DAX Olculeri
+## Kullanılan DAX Ölçüleri
 
-Bu dashboard'da KPI kartlari, onceki ay karsilastirmalari, buyume oranlari ve kosullu renk formatlari icin DAX olculeri kullanilmistir.
+Bu dashboard'da KPI kartları, önceki ay karşılaştırmaları, büyüme oranları ve koşullu renk formatları için DAX ölçüleri kullanılmıştır.
 
-[DAX olculerini goruntule](dax/DAX_Measures.md)
+[DAX ölçülerini görüntüle](dax/DAX_Measures.md)
 
-## Proje Amaci
+## Veri ve Veri Modeli
 
-Bu projenin amaci, e-ticaret verisi uzerinden temel is metriklerini analiz etmek ve bu metrikleri Power BI dashboard uzerinde anlasilir sekilde sunmaktir.
+- **Veri:** Olist CSV dosyaları SQL Server'daki `E_commerce` veritabanına `df_` tabloları olarak aktarıldı. Aynı tablolar [E-Commerce Business SQL Analysis](../Ecommerce_Business_SQL_Analysis/README.md) projesinde de kullanılıyor; tabloların nasıl yükleneceği o sayfada anlatılıyor.
+- **Model:** `df_Orders`, `df_OrderItems`, `df_Payments`, `df_Customers` ve `df_Products` tabloları; ürün, ödeme tipi ve eyalet boyut tabloları; ayrıca DAX ile oluşturulan `Calendar` tarih tablosu.
+- **PBIT dosyasını açma:** Şablon, verileri yerel `.\SQLEXPRESS` sunucusundaki `E_commerce` veritabanından okur. Sunucu adı farklıysa açılışta kendi SQL Server adınızı girin.
+
+## Proje Amacı
+
+Bu projenin amacı, e-ticaret verisi üzerinden temel iş metriklerini analiz etmek ve bu metrikleri Power BI dashboard üzerinde anlaşılır şekilde sunmaktır.

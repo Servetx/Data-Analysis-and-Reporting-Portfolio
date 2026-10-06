@@ -6,6 +6,12 @@ Bu depo, e-ticaret ve iş operasyonları verileri üzerinde hazırladığım **S
 
 Çalışmaların amacı; iş sorularını SQL sorgularına dönüştürmek, veri kalitesi kontrolleri yapmak, temel performans göstergelerini hesaplamak ve sonuçları anlaşılır raporlara dönüştürmektir.
 
+## Hakkımda
+
+2022'den bu yana Trendyol, Hepsiburada ve Amazon depolarında stok, mal kabul ve sevkiyat operasyonlarında çalıştım; perakendede Nebim V3 ile stok sayımı, e-fatura girişi ve fatura kontrolü yaptım. Operasyonda karşılaştığım stok, sipariş ve fatura verilerini Excel, SQL Server ve Power BI ile analiz edip rapora dönüştürmeyi bu portföyde gösteriyorum.
+
+**Hedef pozisyonlar:** Stok kontrol · Ön muhasebe · Raporlama / veri analizi
+
 ## Portföyü İncelemeye Buradan Başlayın
 
 | Proje | İçerik | Bağlantı |

@@ -1,13 +1,13 @@
 # DAX Measures
 
-[← Proje sayfasi](../README.md) · [Ana sayfa](../../README.md)
+[← Proje sayfası](../README.md) · [Ana sayfa](../../README.md)
 
-Bu dosya, Training E-Commerce Dashboard projesinde kullanilan DAX olculerini icerir.
+Bu dosya, Training E-Commerce Dashboard projesinde kullanılan DAX ölçülerini içerir.
 
 ## Core KPI Measures
 
-Dashboard'daki temel KPI kartlarini hesaplamak icin kullanilmistir.  
-Customers musteri sayisini, Orders siparis sayisini, Sales toplam Satış tutarini, AOV ise ortalama siparis degerini gosterir.
+Dashboard'daki temel KPI kartlarını hesaplamak için kullanılmıştır.  
+Customers müşteri sayısını, Orders sipariş sayısını, Sales toplam satış tutarını, AOV ise ortalama sipariş değerini gösterir.
 
 ```dax
 Customers =
@@ -28,7 +28,7 @@ DIVIDE(
 
 ## Previous Month and Growth Measures
 
-KPI kartlarinda onceki ay degeri, buyume orani ve pozitif/negatif renk bilgisini gostermek icin kullanilmistir.
+KPI kartlarında önceki ay değeri, büyüme oranı ve pozitif/negatif renk bilgisini göstermek için kullanılmıştır.
 ```dax
 AOV PM =
 CALCULATE(
@@ -50,11 +50,11 @@ IF(
 )
 ```
 
-Ayni Previous Month, Growth ve Color mantigi Customers, Orders ve Sales KPI kartlari icin de uygulanmistir.
+Aynı Previous Month, Growth ve Color mantığı Customers, Orders ve Sales KPI kartları için de uygulanmıştır.
 
 ## Country Sales Percentage
 
-Ulke bazli satis oranini hesaplamak icin kullanilmistir.
+Ülke bazlı satış oranını hesaplamak için kullanılmıştır.
 
 ```dax
 Country Sales % =
@@ -69,7 +69,7 @@ RETURN
 
 ## Continent Rounded Bar Chart
 
-Kita bazli satis oranini SVG bar chart olarak gostermek icin kullanilmistir.
+Kıta bazlı satış oranını SVG bar chart olarak göstermek için kullanılmıştır.
 
 ```dax
 Continent Rounded Bar Chart =
@@ -91,7 +91,7 @@ RETURN
 
 ## Highlighted Month Details
 
-Secili aylarin toplam satis icindeki oranini dinamik metin olarak gostermek icin kullanilmistir.
+Seçili ayların toplam satış içindeki oranını dinamik metin olarak göstermek için kullanılmıştır.
 
 ```dax
 Highlighted Month Details =
@@ -132,7 +132,7 @@ RETURN
 
 ## Month Highlight Color
 
-Secilen aylari grafikte farkli renkle gostermek icin kullanilmistir.
+Seçilen ayları grafikte farklı renkle göstermek için kullanılmıştır.
 
 ```dax
 Month Highlight Color =
@@ -153,7 +153,7 @@ RETURN
 
 ## Month Switch
 
-Ay numarasini kisa ay adina cevirmek icin kullanilmistir.
+Ay numarasını kısa ay adına çevirmek için kullanılmıştır.
 
 ```dax
 Month Switch =
@@ -175,7 +175,7 @@ SWITCH(
 ```
 ## Calendar Table
 
-Tarih bazli analizler, onceki ay karsilastirmalari ve ay filtreleri icin kullanilan takvim tablosudur.
+Tarih bazlı analizler, önceki ay karşılaştırmaları ve ay filtreleri için kullanılan takvim tablosudur.
 
 ```dax
 Calendar =
@@ -198,7 +198,7 @@ ADDCOLUMNS(
 
 ## Previous Month
 
-KPI kartlarinda onceki ay bilgisini dinamik olarak gostermek icin kullanilmistir.
+KPI kartlarında önceki ay bilgisini dinamik olarak göstermek için kullanılmıştır.
 
 ```dax
 Previous Month =

@@ -2,30 +2,29 @@
 
 [← Ana sayfa](../README.md)
 
-Bu proje, Power BI egitiminde calistigim e-ticaret dashboard yapisini videoya bakmadan tekrar kurarak gelistirdigim bir calismadir.
+Bu proje, Power BI eğitiminde çalıştığım e-ticaret dashboard yapısını videoya bakmadan tekrar kurarak geliştirdiğim bir çalışmadır.
 
-Amac, KPI kartlarini, dilimleyici kullanimini, DAX olculerini, grafik duzenini ve dashboard tasarim mantigini kendi basima tekrar uygulayabilmekti.
+Amaç; KPI kartlarını, dilimleyici kullanımını, DAX ölçülerini, grafik düzenini ve dashboard tasarım mantığını kendi başıma tekrar uygulayabilmekti.
 
-## Dashboard Preview
+## Dashboard Önizleme
 
-![Dashboard Onizleme](dashboard-preview.png)
+![Dashboard Önizleme](dashboard-preview.png)
 
-Dashboard PDF olarak goruntulenebilir. Power BI dosyasi PBIT (sablon) formatinda indirilebilir; acildiginda veri kaynagi yolu istenir.
+Dashboard PDF olarak görüntülenebilir. Power BI dosyası PBIT (şablon) formatında indirilebilir.
 
-- [Dashboard PDF dosyasini goruntule](dashboard.pdf)
-- [Power BI PBIT sablonunu indir](dashboard.pbit)
+- [Dashboard PDF dosyasını görüntüle](dashboard.pdf)
+- [Power BI PBIT şablonunu indir](dashboard.pbit)
 
+## Öne Çıkan Bulgular
 
-## One Cikan Bulgular
+Önizlemedeki görünümde Mart ayı ve tüm kategoriler seçilidir.
 
-Onizlemedeki gorunumde Mart ayi ve tum kategoriler secilidir.
+- Yıllık toplam satış 36,35M; aylık satışlar yaklaşık 2,7M ile 3,2M arasında dengeli seyrediyor.
+- Mart ayında satış bir önceki aya göre %9,4 artmış, AOV ise %0,3 düşmüştür.
+- Üç ödeme yöntemi (Bank Transfer, PayPal, Credit Card) satışları neredeyse eşit (~%33) paylaşıyor.
+- Laptop, sipariş adedi diğer ürünlere yakın olmasına rağmen en yüksek satış tutarını ve AOV'yi üretiyor.
 
-- Yillik toplam satis 36,35M; aylik satislar yaklasik 2,7M ile 3,2M arasinda dengeli seyrediyor.
-- Mart ayinda satis bir onceki aya gore %9,4 artmis, AOV ise %0,3 dusmustur.
-- Uc odeme yontemi (Bank Transfer, PayPal, Credit Card) satislari neredeyse esit (~%33) paylasiyor.
-- Laptop, siparis adedi diger urunlere yakin olmasina ragmen en yuksek satis tutarini ve AOV'yi uretiyor.
-
-## Dashboard Icerigi
+## Dashboard İçeriği
 
 - Customers
 - Orders
@@ -39,27 +38,34 @@ Onizlemedeki gorunumde Mart ayi ve tum kategoriler secilidir.
 - Category Slicer
 
 ## Uygulanan Konular
-- KPI kartlari
-- DAX olculeri
-- Onceki ay karsilastirmasi
-- Buyume orani olculeri
-- Kosullu bicimlendirme
+
+- KPI kartları
+- DAX ölçüleri
+- Önceki ay karşılaştırması
+- Büyüme oranı ölçüleri
+- Koşullu biçimlendirme
 - Ay dilimleyici
 - Kategori dilimleyici / filtre
-- Donut grafigi
-- Sutun grafigi
+- Donut grafiği
+- Sütun grafiği
 - Dinamik ay vurgulama
 - AOV hesaplama
-- Odeme turu analizi
-- Aylik satis analizi
-- Ulke / kita bazli satis analizi
+- Ödeme türü analizi
+- Aylık satış analizi
+- Ülke / kıta bazlı satış analizi
 
-## Kullanilan DAX Olculeri
+## Kullanılan DAX Ölçüleri
 
-Bu dashboard'da KPI kartlari, onceki ay karsilastirmalari, buyume oranlari ve kosullu renk formatlari icin DAX olculeri kullanilmistir.
+Bu dashboard'da KPI kartları, önceki ay karşılaştırmaları, büyüme oranları ve koşullu renk formatları için DAX ölçüleri kullanılmıştır.
 
-[DAX olculerini goruntule](dax/DAX_Measures.md)
+[DAX ölçülerini görüntüle](dax/DAX_Measures.md)
 
-## Proje Amaci
+## Veri ve Veri Modeli
 
-Bu calismanin amaci, egitimde ogrenilen Power BI dashboard yapisini videoya bakmadan tekrar kurarak pratik becerimi gelistirmektir.
+- **Veri:** Eğitim kapsamında verilen `ecommerce_data.csv` dosyası (sipariş, ürün, ülke ve ödeme bilgileri). Veri dosyası bu depoda yer almaz.
+- **Model:** `facteCommerce` olgu tablosu; ürün, ülke, ödeme yöntemi ve ödeme durumu boyut tabloları; ayrıca DAX ile oluşturulan `Calendar` tarih tablosu.
+- **PBIT dosyasını açma:** Şablon açılırken veri yolu bulunamazsa Power Query'de kaynak yolunu kendi `ecommerce_data.csv` dosyanızın konumuyla değiştirin.
+
+## Proje Amacı
+
+Bu çalışmanın amacı, eğitimde öğrenilen Power BI dashboard yapısını videoya bakmadan tekrar kurarak pratik becerimi geliştirmektir.
